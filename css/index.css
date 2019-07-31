@@ -159,96 +159,43 @@ footer nav a {
   width: 1000px;
   height: 250px;
 }
+.display {
+  border: 3px solid black;
+  background: black;
+  display: flex;
+  justify-content: space-between;
+}
 .display img {
-  width: 250px;
+  width: 325px;
 }
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+.collage {
+  display: flex;
+  margin: 5px 0px;
 }
-/* Next & previous buttons */
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
+.collage div {
+  display: flex;
+  flex-direction: column;
 }
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+.collage .one img {
+  height: 150px;
 }
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+.collage .five img {
+  height: 150px;
 }
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
+.collage img {
   width: 100%;
-  text-align: center;
 }
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+.collage .shoes2 {
+  height: 158px;
 }
-.active,
-.dot:hover {
-  background-color: #717171;
+.collage .shoes4 {
+  height: 218px;
 }
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
+.collage .shoes5 {
+  height: 200px;
 }
-@-webkit-keyframes fade {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
-  }
-}
-@keyframes fade {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
-  }
-}
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev,
-  .next,
-  .text {
-    font-size: 11px;
-  }
+.collage .shoes6 {
+  height: 250px;
 }
 body {
   max-width: 1000px;

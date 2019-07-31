@@ -28,45 +28,38 @@
 <section class="cover-image">
     <img src="images/cover.jpg">
 </section>
-<br>
 
 <section class="display">
-    <div class="slideshow-container">
-
-        <div class="mySlides fade">
-            <img src="images/model1.jpg" style="width:100%">
-            <div class="text">Caption Text</div>
-        </div>
-                
-        <div class="mySlides fade">
-            <img src="images/model2.jpg" style="width:100%">
-            <div class="text">Caption Two</div>
-        </div>
-                
-        <div class="mySlides fade">
-            <img src="images/model3.jpg" style="width:100%">
-            <div class="text">Caption Three</div>
-        </div>
-
-        <div class="mySlides fade">
-            <img src="images/model4.jpg" style="width:100%">
-            <div class="text">Caption Three</div>
-        </div>
-                
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                
-    </div>
-    <br>
-                
-    <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span> 
-        <span class="dot" onclick="currentSlide(2)"></span> 
-        <span class="dot" onclick="currentSlide(3)"></span> 
-        <span class="dot" onclick="currentSlide(4)"></span> 
-    </div>
-    
+    <img src="./images/pshirt1.jpg" alt="">
+    <img src="./images/pshirt2.jpg" alt="">
+    <img src="./images/pshirt3.jpg" alt="">
 </section>
+
+<section class="collage">
+    <div class="one">
+        <img src="./images/set1.jpg" alt="">
+        <img src="./images/shirts1.jpg" alt="">
+        <img src="./images/shirts2.jpg" alt="">
+    </div>
+    <div>
+        <img src="./images/shoes2.jpg" alt="">
+        <img class="shoes2" src="./images/shoes1.jpg" alt="">
+    </div>   
+    <div>
+        <img src="./images/shoes3.jpg" alt="">
+        <img class="shoes4" src="./images/shoes4.jpg" alt="">
+    </div>
+    <div>
+        <img class="shoes5" src="./images/shoes5.jpg" alt="">
+        <img class="shoes6" src="./images/shoes6.jpg" alt="">
+    </div>
+    <div class="five">
+        <img src="./images/shoes7.jpg" alt="">
+        <img src="./images/shoes8.jpg" alt="">
+        <img src="./images/shoes9.jpg" alt="">
+    </div>
+</section>
+
 
 
     
@@ -80,24 +73,6 @@
         <a>Link4</a>
     </nav>
 </footer>
-<script>
-    
-        var slideIndex = 0;
-showSlides();
 
-
-
-function showSlides() {
-var i;
-var slides = document.getElementsByClassName("mySlides");
-    for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none"; 
-}
-    slideIndex++;
-        if (slideIndex > slides.length) {slideIndex = 1} 
-        slides[slideIndex-1].style.display = "block"; 
-  setTimeout(showSlides, 5000); // Change image every 5 seconds
-}
-        </script>
 </body>
 </html>
