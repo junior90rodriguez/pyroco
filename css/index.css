@@ -140,6 +140,9 @@ header nav {
 header nav .fb {
   height: 30px;
 }
+header nav .ig {
+  height: 35px;
+}
 header nav a {
   color: #e1e3e6;
 }
@@ -154,6 +157,9 @@ footer {
 }
 footer .fb {
   height: 30px;
+}
+footer .ig {
+  height: 35px;
 }
 footer nav a {
   color: #e1e3e6;
