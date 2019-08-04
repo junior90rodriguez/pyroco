@@ -137,6 +137,9 @@ header nav {
   width: 250px;
   justify-content: space-evenly;
 }
+header nav .fb {
+  height: 30px;
+}
 header nav a {
   color: #e1e3e6;
 }
@@ -148,6 +151,9 @@ header .logo h1 {
 }
 footer {
   background: #000;
+}
+footer .fb {
+  height: 30px;
 }
 footer nav a {
   color: #e1e3e6;
