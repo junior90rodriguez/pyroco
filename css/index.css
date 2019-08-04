@@ -138,9 +138,11 @@ header {
   }
 }
 header nav {
+  font-size: 2rem;
   display: flex;
-  width: 250px;
+  width: 760px;
   justify-content: space-evenly;
+  margin-top: 50px;
 }
 header nav .fb {
   height: 30px;
@@ -193,7 +195,7 @@ footer nav a {
   }
 }
 .display img {
-  width: 325px;
+  width: 33.3%;
 }
 .collage {
   display: flex;
@@ -233,4 +235,5 @@ body {
   max-width: 1000px;
   width: 100%;
   margin: 0 auto;
+  background: black;
 }
