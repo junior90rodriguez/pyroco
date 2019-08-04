@@ -132,6 +132,11 @@ header {
   padding: 30px;
   background: #000;
 }
+@media (max-width: 500px) {
+  header {
+    width: 190%;
+  }
+}
 header nav {
   display: flex;
   width: 250px;
@@ -155,6 +160,11 @@ header .logo h1 {
 footer {
   background: #000;
 }
+@media (max-width: 500px) {
+  footer {
+    width: 200%;
+  }
+}
 footer .fb {
   height: 30px;
 }
@@ -177,12 +187,22 @@ footer nav a {
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 500px) {
+  .display {
+    width: 200%;
+  }
+}
 .display img {
   width: 325px;
 }
 .collage {
   display: flex;
   margin: 5px 0px;
+}
+@media (max-width: 500px) {
+  .collage {
+    width: 200%;
+  }
 }
 .collage div {
   display: flex;
